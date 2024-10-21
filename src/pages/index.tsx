@@ -5,10 +5,10 @@ import {
   announcement,
   packages,
 } from "../locales/home";
-import MainSlider from "../components/common/Slider/MainSlider";
+// import MainSlider from "../components/common/Slider/MainSlider";
 import { TextField } from "@mui/material";
 import Link from "next/link";
-import ProjectsSlider from "../components/common/Slider/ProjectsSlider";
+// import ProjectsSlider from "../components/common/Slider/ProjectsSlider";
 import HomeLayout from "../components/layouts/HomeLayout";
 import { Dice, Trophy } from "../assets/Icons";
 import { Player } from "../assets/Icons";
@@ -85,10 +85,10 @@ const Home = () => {
         </div>
 
         {/* top slider */}
-        <MainSlider
+        {/* <MainSlider
           sliderData={announcement}
           bodyStyle={"!flex items-center py-2 lg:py-3 gap-3"}
-        />
+        /> */}
 
         {/* counter */}
         <div className="container py-16 lg:py-24">
@@ -174,7 +174,7 @@ const Home = () => {
               <br />
               playing the lottery is one way of creating that opportunity.
             </p>
-            <ProjectsSlider sliderData={packages} />
+            {/* <ProjectsSlider sliderData={packages} /> */}
           </div>
         </div>
 
